@@ -13,11 +13,11 @@ library(shiny)
 runGitHub("hubs_shiny", "jackkelly75", subdir = "PD/PDPDshinyapp/")  #change subdir for table required
 
 ####possible sub dir
-#"PD/PDPDshinyapp/"
-#"PD/PDHCshinyapp/"
-#"AD/ADADshinyapp/"
-#"AD/ADHDshinyapp/"
-#"AD/ADMCIshinyapp/"
+#"PD/PDPD/"
+#"PD/PDHC/"
+#"AD/ADAD/"
+#"AD/ADHC/"
+#"AD/ADMCI/"
 
 ```
 
@@ -26,6 +26,6 @@ Or you can clone the git repository, then use ```runApp():```
 ```
 # First clone the repository with git. If you have cloned it into
 # ~/hubs_shiny/PD/PDPDshinyapp, first go to that directory, then use runApp().
-setwd("~/hubs_shiny/PD/PDPDshinyapp")
+setwd("~/hubs_shiny/PD/PDPD")
 runApp()
 ```
