@@ -10,7 +10,7 @@ Shiny app to show the results of hub analysis of AD and PD blood networks
 library(shiny)
 
 # Easiest way is to use runGitHub
-runGitHub("hubs_shiny", "jackkelly75", subdir = "PD/PDPDshinyapp/"))  #change subdir for table required
+runGitHub("hubs_shiny", "jackkelly75", subdir = "PD/PDPDshinyapp/")  #change subdir for table required
 
 ####possible sub dir
 #"PD/PDPDshinyapp/"
