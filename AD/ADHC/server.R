@@ -20,14 +20,6 @@ function(input, output) {
      DT::datatable(darkorange2, options = list(pageLength = 25), filter ="top")
     )
 
-  output$mytable5 <- DT::renderDataTable(
-     DT::datatable(lightsteelblue1, options = list(pageLength = 25), filter ="top")
-    )    
-
-  output$mytable6 <- DT::renderDataTable(
-     DT::datatable(midnightblue, options = list(pageLength = 25), filter ="top")
-    )
-
 
 
 
@@ -60,19 +52,5 @@ function(input, output) {
     }
   )
 
-  output$downloadLightData <- downloadHandler(
-    filename = "lightsteelblue1.csv",
-    content = function(file){
-        write.csv(lightsteelblue1, file , row.names = FALSE)
-    }
-  )
-
-
-  output$downloadMidnightData <- downloadHandler(
-    filename = "midnightblue.csv",
-    content = function(file){
-        write.csv(midnightblue, file , row.names = FALSE)
-    }
-  )
 
 }
